@@ -1,0 +1,13 @@
+.form__input {
+  display: block;
+  padding: 5px;
+  border: 1px solid #CCC;
+}
+
+.form__container {
+  margin-bottom: 10px;
+}
+
+.form__validation-message {
+  color: red;
+}
