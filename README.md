@@ -8,7 +8,7 @@
 - Each exercise has its own HTML and JS file. Feel free to add a CSS file if needed.
 - The difficulty level is indicated next to each question
 - Focus primarily on functionality and just enough styling to make the solutions functional.
-- Make use of event bubbling to set event listeners on multiple, similar elements
+- Make use of event bubbling and delegation to set event listeners on multiple, similar elements
 - Use BEM notation where appropriate
 - Avoid setting styles directly on elements. To apply alternative styling to an element, add another class with a BEM modifier
 
