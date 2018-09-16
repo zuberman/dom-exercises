@@ -14,7 +14,7 @@
 
 ## Display list - easier
 
-You are provided with an array of Star Wars characters. Use the `map` array method to convert it into an array of HTML `li` elements. Each `li` element should contain information about the character such as their `height`, `mass`, `hair_color`, `skin_color`, `eye_color`. Display the list of characters in the element with class `characters`.
+You are provided with an array of Star Wars characters. Use the `map` array method to convert it into an array of HTML `li` elements. Each `li` element should contain information about the character such as their `name`, `height`, `mass`, `hair_color`, `skin_color`, `eye_color`. Display the list of characters in the element with class `characters`.
 
 ## Form validation - harder
 
@@ -55,7 +55,7 @@ Fetch and display a list of Star Wars character names from the `https://swapi.co
 
 ## Sorting - medium
 
-Fetch and display a list Star Wars characters, including name, height and mass from the `https://swapi.co/api/people/` API endpoint. The page has three buttons `Name`, `Height` and `Mass`. When a button is clicked sort the characters by that attribute and update the order they are displayed in on the page.
+Fetch and display a list Star Wars characters, including `name`, `height` and `mass` from the `https://swapi.co/api/people/` API endpoint. The page has three buttons `Name`, `Height` and `Mass`. When a button is clicked sort the characters by that attribute and update the order they are displayed in on the page.
 
 Take a look at how data attributes work at [https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes](https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes)
 
