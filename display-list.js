@@ -1,3 +1,5 @@
+const parent = document.querySelector(".characters");
+
 const characters = [
 	{
 		"name": "Luke Skywalker",
@@ -81,3 +83,9 @@ const characters = [
 		"eye_color": "blue-gray"
 	}
 ];
+
+const htmlcharacters = characters.map(function(character) {
+	return `<li>${character.name} is ${character.height}cm tall and weighs ${character.mass}kg. They have ${character.hair_color} hair, ${character.skin_color} skin and ${character.eye_color} eyes</li>`
+}).join("")
+console.log(htmlcharacters)
+parent.innerHTML = (htmlcharacters)
