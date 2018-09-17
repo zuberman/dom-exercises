@@ -40,7 +40,7 @@ When user submits a form and no errors are detected, display an alert notifying 
 
 ## Pagination - medium
 
-Fetch and display a list of characters and their names from the `https://swapi.co/api/people/` API endpoint. At the top of the results display a list of available page numbers. When a page number is clicked fetch and display the results from that page.
+Fetch and display a list of characters and their names from the `https://swapi.co/api/people/` API endpoint. At the top of the results display a list of available page numbers. When a page number is clicked fetch and display the results from that page. Use the `count` property of API results to calculate how many page links are required.
 
 
 ## Add to favourites - harder
